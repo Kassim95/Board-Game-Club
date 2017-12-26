@@ -1,7 +1,10 @@
 import React from 'react';
+import NavigationBar from './Navigation';
 
 export default () => {
     return(
-        <h1>Hello Kassim</h1>
+        <div className='container'>
+            <NavigationBar />
+        </div>
     )
 }
